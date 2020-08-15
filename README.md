@@ -1,4 +1,4 @@
-# JavaScript-WTFs-Personal-Collection-
+# JavaScript-WTFs-Personal-Collection
 
 This my **personal favourite** collection of JavaScript WTF's... actually
 *not really wtf's*, JS does have some strange core mechanics but 90% of them or even 99% could 
@@ -13,7 +13,7 @@ There is also a flag **head compiled** with a datestamp, that signals if i under
 automatically in head or need to remind myself some tiny knowledges. If **head compiled** flag is true
 then i find this item explicitly clear to understand.
 
-#### Item 1 
+## Item 1 
 ```javascript
 let obj = { 
   1: "Hello, world!", 
@@ -22,7 +22,7 @@ let obj = {
   bool : "Hello, mr.President"
 }
 ```
-**What are the results of:**
+*What are the results of:*
 ```js
 1) obj[undefined == null]
 2) obj[1+""]
@@ -39,13 +39,13 @@ let obj = {
   
 </details>
 
-#### Item 2 
+## Item 2 
 ```javascript
 if ( [] ) console.log('Hello, World!')
 if ( [] == false ) console.log('Hello, World!')
 ```
-Why both **if's** resolve to true ? 
-empty array [] in 1st condition is true and false in 2nd, why ?
+*Why both **if's** resolve to true ?*
+*empty array [] in 1st condition is true and false in 2nd, why ?*
 
 <details>
   <summary>Explanation</summary>
@@ -58,12 +58,12 @@ empty array [] in 1st condition is true and false in 2nd, why ?
   
 </details>
 
-#### Item 3
+## Item 3
 ```javascript
 [] == ![]
 ```
-Why this condition resolves to true ? How could one entity be equal to negative self (or **not self**) ?
-Explain in steps how this condition would be resolved in JavaScript
+*Why this condition resolves to true ? How could one entity be equal to negative self (or **not self**) ?*
+*Explain in steps how this condition would be resolved in JavaScript*
 
 <details>
   <summary>Explanation</summary>
@@ -76,7 +76,7 @@ Explain in steps how this condition would be resolved in JavaScript
   
 </details>
 
-#### Item 4
+## Item 4
 ```javascript
 const x = {
   i: 1,
@@ -88,8 +88,9 @@ const x = {
 if (x==1 && x==2 && x==3)
   console.log('JS is great!')
 ```
-Why if statement resolves to true, explain how it works ?
-How x==1 comparing works in this situation ?
+
+*Why if statement resolves to true, explain how it works ?*
+*How x==1 comparing works in this situation ?*
 
 <details>
   <summary>Explanation</summary>
