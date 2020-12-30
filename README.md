@@ -25,8 +25,9 @@ let obj = {
 *What are the results of:*
 ```js
 1) obj[undefined == null]
-2) obj[1+""]
-3) obj[typeof false]
+2) obj[undefined === null]
+3) obj[1+""]
+4) obj[typeof false]
 ```
 <details>
   <summary>Explanation</summary>
