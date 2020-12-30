@@ -102,3 +102,10 @@ if (x==1 && x==2 && x==3)
   ```
   
 </details>
+
+## Item 5
+What for ArrayBuffer is used in JavaScript ? What classes for byte arrays do you know ? 
+Describe a simple usage of ArrayBuffer and usecase.
+<details>
+  <summary>Answer</summary>
+</details>
