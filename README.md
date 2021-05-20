@@ -81,7 +81,7 @@ if ( [] == false ) console.log('Hello, World!')
 ```javascript
 const x = {
   i: 1,
-  toString: function() {
+  valueOf: function() {
     this.i++
   }
 }
