@@ -143,11 +143,14 @@ What is **IIFE** and why it is used in JavaScript ? **Name different ways** of d
   good if there is a need to immediatly call declared function, f.x. invoke code of outside script.
   
   Ways of declaring IIFE:
+  Regular(simple) ones: 
   ```javascript
-    Regular(simple) ones: 
       1. (function() {})()
       2. (function() {}())
-    Some extra(not obvious) ones:
+  ```
+  
+  Some extra(not obvious) ones:
+  ```javascript      
       1. void function() {}()
       2. +function() {}()
       3. !function() {}()
