@@ -112,7 +112,10 @@ Describe a simple usage of ArrayBuffer and usecase.
 </details>
   
 ## Item 6
-  What is a void operator in JavaScript ? How does it work , define some simple usecases
+  ```javascript
+  void(1)
+  ```
+  What is a **void** operator in JavaScript ? How does it work , define some simple usecases
   <details>
     <summary>Answer</summary>
     Void operator may be called as a function, f.x. - void(expression): void(5+5) or in this notation - void 3
@@ -131,7 +134,7 @@ Describe a simple usage of ArrayBuffer and usecase.
   </details>
 
 ## Item 7
-What is IIFE and why it is used in JavaScript ? Name different ways of declaring IIFE: at least 2 ways, at max 5
+What is **IIFE** and why it is used in JavaScript ? **Name different ways** of declaring **IIFE**: at least 2 ways, at max 5
   
   <details>
     <summary>Answer</summary>
@@ -152,7 +155,7 @@ What is IIFE and why it is used in JavaScript ? Name different ways of declaring
   </details>
   
 ## Item 8
-  How dot notation works in JavaScript, what type of object it returns ? Explain why following example won't work as expected:
+  How doesn dot notation work in JavaScript, what type of object it returns ? Explain why following example won't work as expected:
   ```javascript
   let obj, method;
 
