@@ -180,7 +180,7 @@ which includes:
   1. **base** - object its called at  
   2. **name** - method name  
   3. **strict** - strict mode: true/false  
-  </p>
+
 This ReferenceType is lost if there is any type of expression(regular (=), logic(&&, ||, !)) in between
 call () and a dot notation. For example in (method = obj.go)(), there is a equating before method call.
 </details>
