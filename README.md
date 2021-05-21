@@ -23,7 +23,7 @@ let obj = {
 }
 ```
 *What are the results of:*
-```js
+```javascript
 1) obj[undefined == null]
 2) obj[undefined === null]
 3) obj[1+""]
@@ -105,7 +105,7 @@ if (x==1 && x==2 && x==3)
 </details>
 
 ## Item 5
-What for ArrayBuffer is used in JavaScript ? What classes for byte arrays do you know ? 
+  What for ArrayBuffer is used in JavaScript ? What classes for byte arrays do you know ? 
 Describe a simple usage of ArrayBuffer and usecase.
 <details>
   <summary>Answer</summary>
