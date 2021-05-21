@@ -45,7 +45,7 @@ let obj = {
 if ( [] ) console.log('Hello, World!')
 if ( [] == false ) console.log('Hello, World!')
 ```
-*Why both **if's** resolve to true ?*
+    *Why both **if's** resolve to true ?*
 *empty array [] in 1st condition is true and false in 2nd, why ?*
 
 <details>
