@@ -158,9 +158,7 @@ What is **IIFE** and why it is used in JavaScript ? **Name different ways** of d
 </details>
   
 ## Item 8
-How doesn
-  dot notation work in JavaScript  
-  , what type of object it returns ? Explain why following example won't work as expected:
+How doesn dot notation work in JavaScript, what type of object it returns ? Explain why following example won't work as expected:
 ```javascript
 let obj, method;
 
@@ -173,15 +171,14 @@ obj = {
 ```
 
 <details>
-  <summary>Answer</summary>
-  Dot notation in accompany with method calls in JavaScript returns special object of type [ReferenceType]
-  [ReferenceType]:https://tc39.es/ecma262/#sec-reference-specification-type
-  This means that after you invoke method via dot notation - user.sayhi(), .(dot) here returns ReferenceType
-  which includes:
-  1. **base** - object its called at
-  2. **name** - method name
+<summary>Answer</summary>
+Dot notation in accompany with method calls in JavaScript returns special object of type [ReferenceType]
+[ReferenceType]:https://tc39.es/ecma262/#sec-reference-specification-type
+This means that after you invoke method via dot notation - user.sayhi(), .(dot) here returns ReferenceType
+which includes:  
+  1. **base** - object its called at  
+  2. **name** - method name  
   3. **strict** - strict mode: true/false  
-  
-  This ReferenceType is lost if there is any type of expression(regular (=), logic(&&, ||, !)) in between
-  call () and a dot notation. For example in (method = obj.go)(), there is a equating before method call.
+This ReferenceType is lost if there is any type of expression(regular (=), logic(&&, ||, !)) in between
+call () and a dot notation. For example in (method = obj.go)(), there is a equating before method call.
 </details>
