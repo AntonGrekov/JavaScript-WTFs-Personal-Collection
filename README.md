@@ -136,23 +136,23 @@ Describe a simple usage of ArrayBuffer and usecase.
 ## Item 7
 What is **IIFE** and why it is used in JavaScript ? **Name different ways** of declaring **IIFE**: at least 2 ways, at max 5
   
-  <details>
-    <summary>Answer</summary>
-    IIFE stands for Immediatly Invoked Function Expression and is used in many different situations in JavaScript. In times when no 'let' operator
-    existed IIFE was used to wrap some code in separate function and hence isolate variables in function local lexical environment. Also IIFE is 
-    good if there is a need to immediatly call declared function, f.x. invoke code of outside script.
-    
-    Ways of declaring IIFE:
-    ```javascript
-      Regular(simple) ones: 
-        1. (function() {})()
-        2. (function() {}())
-      Some extra(not obvious) ones:
-        1. void function() {}()
-        2. +function() {}()
-        3. !function() {}()
-    ```
-  </details>
+<details>
+  <summary>Answer</summary>
+  IIFE stands for Immediatly Invoked Function Expression and is used in many different situations in JavaScript. In times when no 'let' operator
+  existed IIFE was used to wrap some code in separate function and hence isolate variables in function local lexical environment. Also IIFE is 
+  good if there is a need to immediatly call declared function, f.x. invoke code of outside script.
+  
+  Ways of declaring IIFE:
+  ```javascript
+    Regular(simple) ones: 
+      1. (function() {})()
+      2. (function() {}())
+    Some extra(not obvious) ones:
+      1. void function() {}()
+      2. +function() {}()
+      3. !function() {}()
+  ```
+</details>
   
 ## Item 8
 How doesn dot notation work in JavaScript, what type of object it returns ? Explain why following example won't work as expected:
