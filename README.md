@@ -110,3 +110,22 @@ Describe a simple usage of ArrayBuffer and usecase.
 <details>
   <summary>Answer</summary>
 </details>
+  
+## Item 6
+  What is a void operator in JavaScript ? How does it work , define some simple usecases
+  <details>
+    <summary>Answer</summary>
+    Void operator may be called as a function, f.x. - void(expression): void(5+5) or in this notation - void 3
+    It always returns undefined and usually used in place where returning undefined is neccessary, f.x. in href 
+    attribute in links, so the link won't follow
+    
+    ```js
+    <a href="javascript:void(0);">
+      Click here to do nothing
+    </a>
+
+    <a href="javascript:void(document.body.style.backgroundColor='green');">
+      Click here for green background
+    </a>
+    ```
+  </details>
