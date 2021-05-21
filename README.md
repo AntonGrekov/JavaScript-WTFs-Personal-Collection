@@ -172,15 +172,16 @@ obj = {
 
 <details>
 <summary>Answer</summary>
-Dot notation in accompany with method calls in JavaScript returns special object of type [ReferenceType]
+<p>Dot notation in accompany with method calls in JavaScript returns special object of type [ReferenceType]
 [ReferenceType]:https://tc39.es/ecma262/#sec-reference-specification-type
 This means that after you invoke method via dot notation - user.sayhi(), .(dot) here returns ReferenceType
-which includes:  
-  
-  
+  which includes:</p>
+
+  ```
   1. **base** - object its called at  
   2. **name** - method name  
   3. **strict** - strict mode: true/false  
+  ```
 
 This ReferenceType is lost if there is any type of expression(regular (=), logic(&&, ||, !)) in between
 call () and a dot notation. For example in (method = obj.go)(), there is a equating before method call.
