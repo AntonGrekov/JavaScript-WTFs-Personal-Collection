@@ -130,8 +130,8 @@ Describe a simple usage of ArrayBuffer and usecase.
     ```
   </details>
 
-  ## Item 7
-    What is IIFE and why it is used in JavaScript ? Name different ways of declaring IIFE: at least 2 ways, at max 5
+## Item 7
+What is IIFE and why it is used in JavaScript ? Name different ways of declaring IIFE: at least 2 ways, at max 5
   <details>
     <summary>Answer</summary>
     IIFE stands for Immediatly Invoked Function Expression and is used in many different situations in JavaScript. In times when no 'let' operator
