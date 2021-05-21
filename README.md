@@ -176,7 +176,9 @@ Dot notation in accompany with method calls in JavaScript returns special object
 [ReferenceType]:https://tc39.es/ecma262/#sec-reference-specification-type
 This means that after you invoke method via dot notation - user.sayhi(), .(dot) here returns ReferenceType
 which includes:  
-  <p>
+  
+  1. A numbered
+  2. list
   1. **base** - object its called at  
   2. **name** - method name  
   3. **strict** - strict mode: true/false  
