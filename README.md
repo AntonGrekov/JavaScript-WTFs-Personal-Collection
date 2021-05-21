@@ -177,6 +177,7 @@ Dot notation in accompany with method calls in JavaScript returns special object
 This means that after you invoke method via dot notation - user.sayhi(), .(dot) here returns ReferenceType
 which includes:  
   
+  
   1. **base** - object its called at  
   2. **name** - method name  
   3. **strict** - strict mode: true/false  
