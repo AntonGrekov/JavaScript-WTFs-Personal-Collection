@@ -147,9 +147,9 @@ What is **IIFE** and why it is used in JavaScript ? **Name different ways** of d
   
 <details>
   <summary>Answer</summary>
-  IIFE stands for Immediatly Invoked Function Expression and is used in many different situations in JavaScript. In times when no 'let' operator
-  existed IIFE was used to wrap some code in separate function and hence isolate variables in function local lexical environment. Also IIFE is 
-  good if there is a need to immediatly call declared function, f.x. invoke code of outside script.
+  IIFE stands for Immediatly Invoked Function Expression and is used in many different situations in JavaScript. In times when there were no 'let' operator,
+  IIFE was used to wrap some code in separate function and hence isolate variables in function local lexical environment. Also IIFE is 
+  good if there is a need to immediatly call declared function, f.x. invoke code of outside of a script.
   
   Ways of declaring IIFE:
   Regular(simple) ones: 
