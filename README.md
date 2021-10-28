@@ -22,7 +22,7 @@ let obj = {
   bool : "Hello, mr.President"
 }
 ```
-*What are the results of:*
+What are the results of:
 ```javascript
 1) obj[undefined == null]
 2) obj[undefined === null]
@@ -52,8 +52,8 @@ let obj = {
 if ( [] ) console.log('Hello, World!')
 if ( [] == false ) console.log('Hello, World!')
 ```
-*Why both **if's** resolve to true ?*
-*empty array [] in 1st condition is true and false in 2nd, why ?*
+Why both **if's** resolve to true ?
+empty array [] in 1st condition is true and false in 2nd, why ?
 
 <details>
   <summary>Explanation</summary>
@@ -70,8 +70,8 @@ if ( [] == false ) console.log('Hello, World!')
 ```javascript
 [] == ![]
 ```
-*Why this condition resolves to true ? How could one entity be equal to negative self (or **not self**) ?*
-*Explain in steps how this condition would be resolved in JavaScript*
+Why this condition resolves to true ? How could one entity be equal to negative self (or **not self**) ?
+Explain in steps how this condition would be resolved in JavaScript
 
 <details>
   <summary>Explanation</summary>
@@ -97,8 +97,8 @@ if (x==1 && x==2 && x==3)
   console.log('JS is great!')
 ```
 
-*Why if statement resolves to true, explain how it works ?*
-*How x==1 comparing works in this situation ?*
+Why if statement resolves to true, explain how it works ?
+How x==1 comparing works in this situation ?
 
 <details>
   <summary>Explanation</summary>
