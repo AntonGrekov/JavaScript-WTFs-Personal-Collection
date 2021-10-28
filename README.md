@@ -16,9 +16,9 @@ then i find this item explicitly clear to understand.
 ## Item 1 
 ```javascript
 let obj = { 
-  1: "Hello, world!", 
-  false : "Hello, Bill Gates!", 
   "1": "Hello, Putin",
+  false : "Hello, Bill Gates!", 
+  1: "Hello, world!",
   bool : "Hello, mr.President"
 }
 ```
@@ -32,7 +32,14 @@ let obj = {
 <details>
   <summary>Explanation</summary>
   
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  1. Answer: **undefined**\
+  Why: undefined equals null in JavaScript, but there is no 'true' property in _obj_, that is why result is undefined
+  2. Answer: **"Hello, Bill Gates!"**\
+  Why: undefined does not equals to null when we're using triple equality, so #2 expression results in obj[false] (obj["false"]), which matches _false_ field in **obj**, because all properties in JavaScript are **strings**.
+  3. Answer: **Hello, world!**\
+  Why: _1+""_ expression results in string _'1'_ literal, but that doesn't matter as #2 answer states - **all properties in JavaScript are strings**. So, we are accessing _obj['1']_ property that is initialized as **"Hello, world!"** due to a reason it is assigned in the last order rather than **"Hello, Putin"**
+  4. Answer: undefined\
+  Why: there is no bool type in JS, but boolean. So, obj[boolean] (obj["boolean"]) results in undefined, as there is no such field in _obj_
   
   ```javascript
   console.log("I'm a code block!");
